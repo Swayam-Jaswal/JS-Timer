@@ -1,0 +1,98 @@
+body{
+    background-color: #e28743;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.entertime{
+    height: 13vh;
+    width: 60vw;
+    position: absolute;
+    top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 2px 2px 6px black;
+    background-color: lightgreen;
+}
+
+.entertime-child{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.entertime-child input{
+    height: 100%;
+    border: none;
+    border-radius: 5px;
+    background-color: cornsilk;
+}
+
+#timeinput{
+    width: 50%;
+}
+
+#setTime{
+    width: 25%;
+    height: 100%;
+    border-radius: 10px;
+    border: none;
+    background-color: lightsalmon;
+    box-shadow: 2px 2px 6px black;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.container-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: purple;
+    height: 50vh;
+    width: 80vw;
+    border-radius: 30px;
+    box-shadow: 2px 2px 8px black;
+}
+
+.startresetdiv {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.startresetdiv button {
+    width: 100%;
+    font-size: 2em;
+    border-radius: 10px;
+    border: none;
+    background-color: lightgreen;
+    box-shadow: 2px 2px 6px black;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+#timer {
+    font-size: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

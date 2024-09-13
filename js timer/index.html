@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=SUSE:wght@100..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="entertime">
+            <label for="time">Enter Time</label><br>
+            <div class="entertime-child">
+                <input type="text" placeholder="Enter Time in seconds" id="timeinput">
+                <button id="setTime">Set</button>
+            </div>
+        </div>
+        <div class="container-child">
+            <div id="timer">Time Left <span id="click">--</span> seconds</div><br><br>
+            <div class="startresetdiv">
+                <div class="startDiv">
+                    <button id="timer-start">Start</button>
+                </div>
+                <div class="resetDiv">
+                    <button id="timer-reset">Reset</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
